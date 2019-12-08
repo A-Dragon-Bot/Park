@@ -1,0 +1,17 @@
+<!--pages/person/person.wxml-->
+<view class="avatar">
+  <image src="../imgs/avatar.png" mode="aspectFill"></image>
+</view>
+<view class="menu">
+ <!--view wx:if="{{flag}}">
+  <view  bindtap="locateshowitem">查看停车位置
+    <image class="arrow" src="../imgs/arrow.png"></image>
+  </view>
+</view>
+ <view wx:else-->
+   <title  class="display_show">停车位置为：{{locate}}</title>
+  <view bindtap="go">去往停车位置
+    <image   class="arrow" src="../imgs/arrow.png"></image>
+  </view>
+</view>
+

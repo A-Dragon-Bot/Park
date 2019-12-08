@@ -1,0 +1,10 @@
+<!--pages/find/find.wxml-->
+<view class="map_box" wx:if="{{cindex!=2}}">
+  <map id="navi_map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" markers="{{markers}}" polyline="{{polyline}}"
+    show-location="true"></map>
+</view>
+<view class="text_box" wx:if="{{cindex!=2}}">
+  <view class="text">{{distance}}</view>
+  <view class="text">{{cost}}</view>
+  <view class="detail_button" bindtouchstart="goDetail">详情</view>
+</view>

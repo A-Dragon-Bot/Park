@@ -1,0 +1,53 @@
+/* pages/person/person.wxss */
+.avatar {
+  width: 100%;
+  background-color: #0066FF;
+  height: 400rpx;
+  /* 水平垂直居中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar > image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  border: 10rpx solid rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  padding: 10rpx;
+  background-color: #fff;
+  margin-top: 30rpx;
+  box-sizing: border-box;
+}
+.menu > view {
+  padding: 30rpx;
+  line-height: 60rpx;
+  height:250rpx;
+}
+.menu > view:last-child {
+  border: none;
+}
+.arrow {
+  width: 30rpx;
+  height: 32rpx;
+  float: right;
+  margin-top: 25rpx;
+}
+.arrow1 {
+  top:80rpx;
+  width: 30rpx;
+  height: 32rpx;
+  float: right;
+  margin-top: 25rpx;
+}
+.display_show{
+  display: block;
+  border: 1rpx solid;
+  border-color:rgb(0, 162, 255);
+  padding: 2rpx;
+}
+.display_none{
+  display: none;
+}
